@@ -20,7 +20,7 @@ namespace Console_Revamp
             bool test = true;
             //decimal totalPrice = 20.95m;
 
-            var testVar = 222;
+            //var testVar = 222;
 
             Console.WriteLine(number);
             Console.WriteLine(count);

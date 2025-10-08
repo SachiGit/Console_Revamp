@@ -10,25 +10,29 @@ namespace Console_Revamp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Sachi...");  //New line added  
+            /*Console.WriteLine("Hello Sachi...");  //New line added  
             byte number = 3;
             int count = 10;
             double price = 12.09;
             float max = 22.543f;
             char character = 'A';
             string firstName = "Sachi";
-            bool test = true;
+            bool test = true;*/
             //decimal totalPrice = 20.95m;
 
             //var testVar = 222;
 
-            Console.WriteLine(number);
+            /*Console.WriteLine(number);
             Console.WriteLine(count);
             Console.WriteLine(price);
             Console.WriteLine(max);
             Console.WriteLine(character);
             Console.WriteLine(firstName);
-            Console.WriteLine(test);
+            Console.WriteLine(test);*/
+
+            byte b = 100;
+            int c = b;
+            Console.WriteLine(c); 
         }
     }
 }

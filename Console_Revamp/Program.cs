@@ -30,7 +30,7 @@ namespace Console_Revamp
             Console.WriteLine(firstName);
             Console.WriteLine(test);*/
 
-            byte b = 100;
+            byte b = 100; // byte to int
             int c = b;
             Console.WriteLine(c); 
         }

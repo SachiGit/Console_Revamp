@@ -32,7 +32,26 @@ namespace Console_Revamp
 
             byte b = 100; // byte to int
             int c = b;
-            Console.WriteLine(c); 
+            Console.WriteLine(c);
+
+            int a = 5;
+            byte e = (byte)a;
+            Console.WriteLine(e);
+
+
+            try
+            {
+                var v = "4321";
+                byte bt = Convert.ToByte(v);
+                Console.WriteLine(bt);
+            }
+
+            catch (Exception)
+            {
+                Console.WriteLine("Error, the number could not converted to Byte");
+                //throw;
+            }
+        }
+
         }
     }
-}

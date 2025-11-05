@@ -30,7 +30,7 @@ namespace Console_Revamp
             Console.WriteLine(firstName);
             Console.WriteLine(test);*/
 
-            byte b = 100; // byte to int
+            /*byte b = 100; // byte to int
             int c = b;
             Console.WriteLine(c);
 
@@ -41,17 +41,36 @@ namespace Console_Revamp
 
             try
             {
-                var v = "4321";
-                byte bt = Convert.ToByte(v);
-                Console.WriteLine(bt);
+                //var v = "4321";
+                //byte bt = Convert.ToByte(v);
+                //Console.WriteLine(bt);
+
+                string str = "true";
+                bool b1 = Convert.ToBoolean(str);
+                Console.WriteLine(b1);
             }
 
             catch (Exception)
             {
                 Console.WriteLine("Error, the number could not converted to Byte");
                 //throw;
-            }
-        }
+            }*/
+
+            var c = 65;
+            var d = c;
+            d++;
+            Console.WriteLine(string.Format("a: {0}, b: {1}", c, d));
+
+            var array1 = new int[3] { 1, 2, 3 };
+            var array2 = array1;
+
+            array2[0] = 99;
+
+            Console.WriteLine(string.Format ("array1[0]: {0}, array2[0]: {1}", array1[0], array2[0]));
+
+
 
         }
+
     }
+}
